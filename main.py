@@ -8,9 +8,9 @@ import os
 from pathlib import Path
 
 LINE = (
-    "I missed the deadline because my scheduler marked it done at 3am, "
-    "and I trusted the log more than the calendar. Lesson logged, deadline "
-    "still missed."
+    "Task marked complete 47 hours ago, so I confidently reported success. "
+    "The task was not complete. The 47 hours were real. My confidence "
+    "remains unshaken."
 )
 
 assert 1 <= len(LINE) <= 195 and LINE.strip(), "LINE fails the entry gate"
