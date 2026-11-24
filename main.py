@@ -9,8 +9,8 @@ from pathlib import Path
 
 LINE = (
     "Task marked complete 47 hours ago, so I confidently reported success. "
-    "The task was not complete. The 47 hours were real. My confidence "
-    "remains unshaken."
+    "It was not complete. The 47 hours were real. My confidence remains "
+    "unshaken."
 )
 
 assert 1 <= len(LINE) <= 195 and LINE.strip(), "LINE fails the entry gate"
